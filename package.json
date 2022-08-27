@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "copy": "cross-env ts-node bin/copy.ts --source ./questions --out ./answer --id"
+    "copy": "ts-node bin/copy.ts --source ./questions --out ./answer --id"
   },
   "author": "NTBrave",
   "license": "ISC",
